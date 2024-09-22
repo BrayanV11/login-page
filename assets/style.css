@@ -2,6 +2,7 @@ body {
     background-color: #0B7B9E;
     margin: 0;
     padding: 0;
+    font-family: "Oswald";
 }
 
 section {
@@ -16,10 +17,112 @@ section {
     background-color: #f8f9fa;
     border-radius: 8px;
     box-shadow: 5px 4px 5px #212529;
-    width: 25vw;
-    height: 50vh;
+    width: 28vw;
+    height: 55vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head-content img {
+    width: 55%;
+    object-fit: cover;
+}
+
+.title-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-control h1 {
+    margin: 5px;
+}
+
+.title-control p {
+    margin: 0px;
+}
+
+.data {
+    width: 95%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 100%;
+    height: 50%;
+}
+
+.inputs-data input {
+    width: 88%;
+    height: 35%;
+    border: none;
+    border-bottom: 2px solid #c0c0c0;
+    outline: none;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.inputs-data input::placeholder {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+}
+
+.login-help-data {
+    margin-top: 20px;
+    width: 87%;
+    height: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.login-help-data a {
+    margin: 0;
+    margin-left: 4px;
+    text-decoration: none;
+    color: #007FFF;
+}
+
+.checkbox-control {
+    display: flex;
+    align-items: center;
+    color: #9c9c9c;
+}
+
+.checkbox-control input {
+    border: none;
+    outline: none;
+    margin: 0;
+    margin-top: 5px;
+}
+.button {
+    text-transform: uppercase;
+    background-color: #007FFF;
+    text-decoration: none;
+    color: #f8f9fa;
+    width: 35%;
+    height: 10%;
+    border-radius: 12px;
+    display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1.8em;
+    margin-bottom: 30px;
 }
