@@ -1,10 +1,12 @@
 body {
     background-color: #0B7B9E;
+    margin: 0;
+    padding: 0;
 }
 
 section {
-    width: 100vw;
-    height: 100vh;
+    width: 100dvw;
+    height: 100dvh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,9 +16,10 @@ section {
     background-color: #f8f9fa;
     border-radius: 8px;
     box-shadow: 5px 4px 5px #212529;
-    width: 40vw;
-    height: 40vh;
+    width: 25vw;
+    height: 50vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
